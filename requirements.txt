@@ -4,7 +4,7 @@ pandas>=2.0.0
 pretty_midi>=0.2.10
 tokenizers>=0.13.3
 torch>=2.0.0
-transformers>=4.29.2
+transformers>=4.29.2,<4.37.0
 lightning>=2.0.0
 
 muster @ git+https://github.com/TimFelixBeyer/amtevaluation.github.io
