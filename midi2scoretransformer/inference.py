@@ -29,7 +29,7 @@ if __name__ == '__main__':
     seed_everything(42, workers=True)
 
     print("Loading model")
-    model = Roformer.load_from_checkpoint(args.model)
+    model = Roformer.load_from_checkpoint(args.model,weights_only=False)
     model.to(device)
     model.eval()
 
